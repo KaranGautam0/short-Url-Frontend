@@ -99,7 +99,7 @@ function showTableDatafn(data) {
       <td colspan="2">${data.totalChicks}</td>`;
       showTableData.appendChild(tableRow);
 
-      ShareButtonFn(data);
+      // ShareButtonFn(data);
     });
   } else {
     errorTableRowFunction();
