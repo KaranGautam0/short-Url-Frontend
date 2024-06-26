@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>URL Shortener App</title>
+
+  <!-- ================= css ================= -->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+  <main>
+    <!-- ===== nav bar ======= -->
+    <nav>
+      <button id="Home-btn">Home</button>
+      <button id="History-btn">History</button>
+    </nav>
+
+    <!-- Home section -->
+    <section class="Home">
+      <h1>URL Shortener Tool</h1>
+
+
+      <input type="text" id="urlInput" placeholder="Enter URL here..">
+      <div class="message"></div>
+
+      <button id="short-Url-Generator-btn">Shorten URL</button>
+
+      <div class="output" id="outputDiv">
+        <!-- Short URL and share button will appere here -->
+
+      </div>
+    </section>
+
+    <!-- History section -->
+    <section class="history">
+      <table>
+        <thead>
+          <tr>
+            <th colspan="4">Long URL</th>
+            <th colspan="5">Short URL</th>
+            <th colspan="2">Clicks</th>
+          </tr>
+        </thead>
+        <tbody id="Show-table-data">
+          <tr>
+            <!-- if data have then will appere here -->
+
+            <td colspan="11" id="if-No-Data">No history found</td>
+          </tr>
+
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <!-- ======= javaScript ========= -->
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
